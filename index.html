@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Service Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="javascript:void(0);" onclick="showPage('home')">Home</a></li>
+        <li><a href="javascript:void(0);" onclick="showPage('services')">Services</a></li>
+        <li><a href="javascript:void(0);" onclick="showPage('testimonials')">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="content">
+    <!-- Home Section -->
+    <section id="home">
+      <h1>Welcome to My Service Portfolio</h1>
+      <p>Explore my services and see what my clients have to say.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" style="display:none;">
+      <h1>My Services</h1>
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Building responsive and interactive websites using HTML, CSS, JavaScript, and more.</p>
+      </div>
+      <div class="service-card">
+        <h3>App Development</h3>
+        <p>Creating mobile applications for iOS and Android using modern frameworks.</p>
+      </div>
+      <div class="service-card">
+        <h3>SEO Optimization</h3>
+        <p>Improving website visibility and search engine ranking using SEO strategies.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" style="display:none;">
+      <h1>What Clients Say</h1>
+      <div class="testimonial-card">
+        <p>"Fantastic work! Delivered the project on time and exceeded our expectations."</p>
+        <p>- Client A</p>
+      </div>
+      <div class="testimonial-card">
+        <p>"Highly recommend! Their attention to detail and creativity were remarkable."</p>
+        <p>- Client B</p>
+      </div>
+      <div class="testimonial-card">
+        <p>"The project was completed on schedule and within budget. Excellent results!"</p>
+        <p>- Client C</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Connect with me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
